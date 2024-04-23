@@ -29,7 +29,7 @@ module.exports = {
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
           "pip install gradio devicetorch",
-          "pip install numpy==1.25.1 diffusers==0.25.1 opencv-python==4.9.0.80 transformers==4.31.0 gradio==4.16.0 safetensors==0.3.1 controlnet-aux==0.0.6 accelerate==0.21.0 insightface",
+          "pip install numpy==1.25.1 diffusers==0.25.1 opencv-python==4.9.0.80 transformers==4.31.0 gradio==4.16.0 safetensors==0.3.1 controlnet-aux==0.0.6 accelerate==0.21.0 insightface mediapipe",
           "pip install {{gpu === 'nvidia' ? 'onnxruntime-gpu' : 'onnxruntime'}}"
         ]
       }
